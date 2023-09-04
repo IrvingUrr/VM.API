@@ -1,4 +1,5 @@
 # VM.API
+Application running on .NET 6.0 Framework.
 
 ## Create DB
 The scripts for the creation of the DB are provided inside the project SQLScripts under folder Scripts. The scripts must be executed in order, first CreateTableUser, then CreateTableUserPurchase and finally SeedData.
