@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VM.Core", "VM.Core\VM.Core.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VM.Service.Test", "VM.Service.Test\VM.Service.Test.csproj", "{4FD32D1F-6347-428D-81F4-C086D7C1C6A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLScripts", "SQLScripts\SQLScripts.csproj", "{FA646ADC-3265-45B5-B4F1-8BD3A8F6A761}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4FD32D1F-6347-428D-81F4-C086D7C1C6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD32D1F-6347-428D-81F4-C086D7C1C6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD32D1F-6347-428D-81F4-C086D7C1C6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA646ADC-3265-45B5-B4F1-8BD3A8F6A761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA646ADC-3265-45B5-B4F1-8BD3A8F6A761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA646ADC-3265-45B5-B4F1-8BD3A8F6A761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA646ADC-3265-45B5-B4F1-8BD3A8F6A761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
