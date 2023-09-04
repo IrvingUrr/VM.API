@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
-using VM.Core.Exceptions;
+using VM.Data.Models;
 using VM.Service.CurrencyService;
 using VM.Service.CurrencyService.ResponseModels;
 
@@ -27,7 +27,7 @@ namespace VM.API.Controllers
         }
 
         [HttpPost("{isoCode}/User/{userId}/Purchase/{amount}")]
-        [ProducesResponseType(typeof(string), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(UserPurchase), StatusCodes.Status201Created)]
         public async Task<IActionResult> Post([Required] string isoCode, [Required] int userId, [Required] decimal amount)
         {
             var currencyService = _currencyService.CreateService(isoCode);
